@@ -6,11 +6,11 @@
 ![](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cmathrm%7Bdx%7D%20%7D%7B%5Cmathrm%7Bd%7D%20t%7D%3Dv)<br/>
 假设速度是一个常数，令v=40m/s，用欧拉法证明位移x是时间t的函数，并且与精确解比较
 ##正文
-![](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cmathrm%7Bdx%7D%20%7D%7B%5Cmathrm%7Bd%7D%20t%7D%3Dv)<br/>
-![](http://latex.codecogs.com/gif.latex?dx%3Dvdt)<br/>
-![](http://latex.codecogs.com/gif.latex?x%28t%29%3Dv%28t%29-v%280%29%3D40t)<br/>
+<center>![](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cmathrm%7Bdx%7D%20%7D%7B%5Cmathrm%7Bd%7D%20t%7D%3Dv)</center><br/>
+<center>![](http://latex.codecogs.com/gif.latex?dx%3Dvdt)</center><br/>
+<center>![](http://latex.codecogs.com/gif.latex?x%28t%29%3Dv%28t%29-v%280%29%3D40t)</center><br/>
 精确解：<br/>
-![](http://latex.codecogs.com/gif.latex?x%28t%29%3D%5Cint_%7B0%7D%5E%7Bt%7Dvd%5Ctau%20%3D40t)<br/>
+<center>![](http://latex.codecogs.com/gif.latex?x%28t%29%3D%5Cint_%7B0%7D%5E%7Bt%7Dvd%5Ctau%20%3D40t)</center><br/>
 两者比较可以看出，欧拉法的解与精确解一致，因为这种情况下v对![](http://latex.codecogs.com/gif.latex?%5CDelta%20t)的泰勒展开原本就只有一项。即本题中欧拉法的解就是精确解<br/>
 [本题代码](https://github.com/zhaoyqing/computationalphysics_N2013301510016/blob/master/homework4.py)<br/>
 图像<br/>
