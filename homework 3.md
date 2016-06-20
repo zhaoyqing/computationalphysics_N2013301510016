@@ -20,7 +20,7 @@
 ##正文
 Python语言我才刚刚开始学起来，很多东西也都还不懂，大概目前我只会“print”这种语法，所以这次的作业只做Level1，做得也非常的简单粗暴就是直接
 print出三个字母。鉴于我还不懂怎么把代码链接上来，就直接写在下面好了，反正也是很简单粗暴的，如下  
-[homework3](https://github.com/zhaoyqing/computationalphysics_N2013301510016/blob/master/homework3)<br/>
+[homework3](https://github.com/zhaoyqing/computationalphysics_N2013301510016/blob/master/homework3.py)<br/>
 以上就是代码，真的很简单粗暴。。。真是不好意思写出来（捂脸）>///<    
 另外，这个报告前面拼的那几个字母是当时还没弄好python的时候弄得，也不打算删了，大概，这也算是，嗯，学习的过程？  
 ##结论
