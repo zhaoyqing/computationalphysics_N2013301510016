@@ -6,3 +6,5 @@
 
 - 姓名：赵宇清
 - 学号：2013301510016
+####[第三次作业](https://github.com/zhaoyqing/computationalphysics_N2013301510016/blob/master/homework%203.md)<br/>
+####[第四次作业](https://github.com/zhaoyqing/computationalphysics_N2013301510016/blob/master/homework4.md)<br/>
