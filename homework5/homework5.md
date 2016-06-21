@@ -16,16 +16,24 @@ b不为0的情况，对结果进行一个直观的解释。a，b的值取决于�
 在理想条件下，当人类生活的空间足够大，食物足够丰富，不受任何疾病威胁等等，即人口增长不受任何条件限制时，人口死亡率为0,人口增长率
 只与人口出生率有关，此时，方程变为<br/>
 ![](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cmathrm%7BdN%7D%20%7D%7B%5Cmathrm%7Bd%7D%20t%7D%3DaN)<br/>
--不使用欧拉法时的人口增长<br/>
+取N(0)=0,t=30
+ - 不使用欧拉法时的人口增长<br/>
 由方程有，<br/>
 ![](http://latex.codecogs.com/gif.latex?%5Cint%20%5Cfrac%7BdN%7D%7BN%7D%3D%5Cint%20adt)
-得！[](http://latex.codecogs.com/gif.latex?lnN-lnN%280%29%3Dat)<br/>
+得
+！[](http://latex.codecogs.com/gif.latex?lnN-lnN%280%29%3Dat)<br/>
 人口N的增长方式为：<br/>
 ![](http://latex.codecogs.com/gif.latex?N%3DN%280%29e%5E%7Bat%7D)<br/>
 人口增长趋势图：<br/>
--使用欧拉法时的人口增长<br/>
+![](https://github.com/zhaoyqing/computationalphysics_N2013301510016/blob/master/homework5/homework5_1.png)<br/>
+[代码1](https://github.com/zhaoyqing/computationalphysics_N2013301510016/blob/master/homework5/homework5_1.py)<br/>
+ - 使用欧拉法时的人口增长<br/>
 此时方程变为<br/>
 ![](http://latex.codecogs.com/gif.latex?N%28%5CDelta%20t%29%5Capprox%20N%280%29&plus;aN%5CDelta%20t)<br/>
-趋势图：
+趋势图：<br/>
+![](https://github.com/zhaoyqing/computationalphysics_N2013301510016/blob/master/homework5/homework5_2.png)<br/>
+[代码2](https://github.com/zhaoyqing/computationalphysics_N2013301510016/blob/master/homework5/homework5_2.py)<br/>
+由以上两种情况比较，精确解的情况为，先缓慢增长，到了某个时间点突然开始急速增长；而欧拉法的情况则是，先是缓慢增长，然后快速增长，最后急速增长。两者情况相似，到最后都是呈爆炸式增长。<br/>
+####b\neq 0
 
 
