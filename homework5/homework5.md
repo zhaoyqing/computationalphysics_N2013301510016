@@ -33,6 +33,7 @@ b不为0的情况，对结果进行一个直观的解释。a，b的值取决于�
 ![](https://github.com/zhaoyqing/computationalphysics_N2013301510016/blob/master/homework5/homework5_2.png)<br/>
 [代码2](https://github.com/zhaoyqing/computationalphysics_N2013301510016/blob/master/homework5/homework5_2.py)<br/>
 由以上两种情况比较，精确解的情况为，先缓慢增长，到了某个时间点突然开始急速增长；而欧拉法的情况则是，先是缓慢增长，然后快速增长，最后急速增长。两者情况相似，到最后都是呈爆炸式增长。
+
 ####b不为0
 欧拉法得到方程为<br/>
 ![](http://latex.codecogs.com/gif.latex?N%28%5CDelta%20t%29%3DN%280%29&plus;%28aN&plus;bN%5E2%29%5CDelta%20t)<br/>
@@ -51,6 +52,7 @@ b不为0的情况，对结果进行一个直观的解释。a，b的值取决于�
 [代码5](https://github.com/zhaoyqing/computationalphysics_N2013301510016/blob/master/homework5/homework5_5.py)<br/>
 这种情况下，人口数量一开始迅速上升，死亡率小于出生率，但随着时间的推移，死亡率逐渐上升且将超过出生率，导致人口到达饱和之后急速
 下降。
+
 ##结论
 在正文中
 ##致谢
